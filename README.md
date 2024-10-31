@@ -38,6 +38,9 @@ Each augmentation type creates textual representation of molecule using SMILES s
  ```"hidden.py"``` consist of functions for compute embeddings of all layers and metrics of all provided models.
  ```"hidden_states_scifive"``` contains example of calculating acc@1 and acc@5 metrics on our datasets.
 
+ ### Repeat and reconstruct experiments
+ ```"tutorials"``` folder provides explonations about all evaluation parts and shows how to apply the framework to your own datasets.
+
 ##  References 
 If you use our repository, please cite the following related paper:
 
