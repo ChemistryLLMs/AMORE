@@ -14,7 +14,7 @@ and on a combined corpus of natural language texts and string-based structures. 
 AMORE consists of two main parts: data augmentation and ranking by embeddings distance. Augmentations can be applied to every SMILES data. Embeding distance ranking is based on FAISS and is provided both for last lidden state and all layers states. We also provide already augmented dataset files.
 
 ### Experimental datasets
-Experimental datasets are provided in the folder "data". CHEBI-20 folder contains test part of CHEBI-20 dataset and augmented ones, qm9 folder contains filteret isomeric molecules from qm9 dataset and its augmentations. Every dataset consist of "original" file and four augmented files, created by using augmentation code.
+Experimental datasets are provided in the folder ```"data"```. CHEBI-20 folder contains test part of CHEBI-20 dataset and augmented ones, qm9 folder contains filteret isomeric molecules from qm9 dataset and its augmentations. Every dataset consist of original dataset file and four augmented files, created by using augmentation code.
 
 ### Augmentations
  ```'./code/augmentation.py'``` creates 4 types of augmentations:
