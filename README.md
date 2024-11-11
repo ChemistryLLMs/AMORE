@@ -1,6 +1,6 @@
 <h3 align="center"> Lost in Translation: Chemical LMs and the Misunderstanding of Molecule Structures </h3>
 <p align="center">
-  📃 Paper from EMNLP 2024 findings <br>
+  📃 <a href="https://aclanthology.org/2024.findings-emnlp.760/" target="_blank">Paper from EMNLP 2024 findings</a> <br>
 </p>
 
 ## Abstract
@@ -45,9 +45,20 @@ Each augmentation type creates textual representation of molecule using SMILES s
 If you use our repository, please cite the following related paper:
 
 ```
-@inproceedings{translation,
-  title={Lost in Translation: Chemical LMs and the Misunderstanding of Molecule Structures},
-  author={Ganeeva, Veronika and Sakhovskiy, Andrey and Khrabrov, Kuzma and Kadurin, Artur and Savchenko, Andrey and Tutubalina, Elena},
-  booktitle={EMNLP 2024 Findings}
+@inproceedings{ganeeva-etal-2024-lost,
+    title = "Lost in Translation: Chemical Language Models and the Misunderstanding of Molecule Structures",
+    author = "Ganeeva, Veronika  and
+      Sakhovskiy, Andrey  and
+      Khrabrov, Kuzma  and
+      Savchenko, Andrey  and
+      Kadurin, Artur  and
+      Tutubalina, Elena",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.760",
+    pages = "12994--13013",
 }
 ```
